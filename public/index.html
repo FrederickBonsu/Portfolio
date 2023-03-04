@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <!-- This is where all the meta data, links and title goes -->
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link href="/public/output-style.css" rel="stylesheet" type="text/css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="style.css" type="text/css" /> -->
+
+    <title>Frederick Bonsu</title>
+  </head>
+  <!-- Head ends here -->
+
+  <!-- Everything happens in the body -->
+
+  <body class="font-ubuntu">
+    <!-- Intro container -->
+    <div class="h-1/2 lg:h-screen bg-slate-100 relative overflow-hidden">
+      <!-- navbar -->
+      <nav class="w-full fixed top-0 bg-slate-100 z-10">
+        <div class="container mx-auto py-5 flex items-center justify-between">
+          <!--logo container -->
+          <div class="flex items-center gap-2">
+            <img class="w-20" src="/src/img/Logo.png" alt="logo" />
+            <span class="text-2xl font-bold text-gray-800">Fred</span>
+          </div>
+          <!-- logo container ends here -->
+
+          <!-- navigation links  -->
+
+          <ul class="hidden md:flex space-x-10 text-gray-600 font-bold text-md">
+            <a href="#">
+              <li class="hover:text-orange-600">About</li>
+            </a>
+            <a href="#">
+              <li class="hover:text-orange-600">Projects</li>
+            </a>
+            <a href="#">
+              <li class="hover:text-orange-600">Contact</li>
+            </a>
+            <a href="#">
+              <li class="hover:text-orange-600">Resume</li>
+            </a>
+          </ul>
+
+          <!-- navigation links ends here -->
+
+          <!-- theme switcher container -->
+
+          <img
+            src="/src/img/moon.png"
+            class="hidden md:block w-5 cursor-pointer"
+            alt="toggle switch"
+          />
+
+          <!-- end here -->
+
+          <!-- hamburger menu container -->
+          <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20">
+            <span class="block w-9 h-1 bg-orange-400 animate-pulse"></span>
+            <span class="block w-8 h-1 bg-orange-400 animate-pulse"></span>
+            <span class="block w-5 h-1 bg-orange-400 animate-pulse"></span>
+          </div>
+          <!-- ends here -->
+
+          <!-- sidebar menu -->
+          <ul
+            id="menu"
+            class="hidden bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-x-10 text-white text-center"
+          >
+            <a href="#">
+              <li class="">About</li>
+            </a>
+            <a href="#">
+              <li class="">Work</li>
+            </a>
+            <a href="#">
+              <li class="">Contact</li>
+            </a>
+            <a href="#">
+              <li class="">Resume</li>
+            </a>
+          </ul>
+          <!-- menu ends here -->
+        </div>
+
+        <!-- intro container ends here -->
+      </nav>
+      <!-- nav end here -->
+    </div>
+
+    <img
+      class="absolute bottom-0 right-0 lg:left-0 mx-auto h-5/6 object-contain"
+      src="/src/img/developer.gif"
+      alt="header image"
+    />
+
+    <!--     
+    <main>
+      <section>
+        <p class="">👋 Hi, I am</p>
+        <h1 class="">Frederick Bonsu.</h1>
+        <h1>I build quality mobile and web apps.</h1>
+      </section>
+    </main> -->
+
+    <!-- <footer></footer> -->
+
+    <script src="/public/script.js"></script>
+  </body>
+  <!-- body ends here -->
+</html>

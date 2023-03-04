@@ -1,0 +1,15 @@
+{
+  "name": "my-portfolio-site",
+  "version": "1.0.0",
+  "description": "My personal site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-css": "npx tailwindcss -i ./src/input-style.css -o ./public/output-style.css --watch"
+  },
+  "author": "Frederick Bonsu",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
